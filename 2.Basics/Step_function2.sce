@@ -9,6 +9,7 @@ xlabel("t");
 ylabel("u(t)"); 
 title("Unit step "," fontsize ",4); // just to adjust font size 
 
-set(gca(),"data bounds",matrix([-6,6,-0.1,1.1],2,-1) ); // Range of axis 
 
-//Ramp Signal 
+//set(gca(),"data bounds",matrix([-6,6,-0.1,1.1],2,-1) ); // Range of axis 
+
+
