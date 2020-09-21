@@ -14,13 +14,13 @@ d = a-b;
 q = a/b;
 m = a*b;
 //displaying values
-disp('Sum of a and b',s)
+mprintf('Sum of a and b is %f',s)
 disp('-----------------')
-disp('Difference of a and b',d)
+mprintf('Difference of a and b is %f',d)
 disp('-----------------')
-disp('Fraction of a by b',q)
+mprintf('Fraction of a by b is %f',q)
 disp('-----------------')
-disp('Product of a and b',m)
+mprintf('Product of a and b is %f',m)
 disp('-----------------')
 pause
 // row vectors
