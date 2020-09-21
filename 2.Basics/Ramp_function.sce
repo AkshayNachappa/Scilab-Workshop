@@ -1,0 +1,12 @@
+clear;
+clc;
+close;
+t=0:0.01:6;
+u=ones(t).*(t>=0);
+r=t.*(t>=0); 
+plot(t,r); 
+xgrid(4,1,7);
+xlabel("t"," fontsize ",4);
+ylabel("r ( t )"," fontsize ",4);
+title("Ramp"," fontsize ",4);
+set(gca(),"data bounds",matrix([-6,6,-0.1,7],2,-1));
