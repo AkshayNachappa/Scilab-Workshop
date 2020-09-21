@@ -54,9 +54,21 @@ Y = B(:,2)
 disp("Extracting col 2",Y)
 D = B(1,:)
 disp("Extracting row 1",D)
+L = B(:,$);
+disp("Extracting last column",L)
+E = B(1:2,2:3)
+disp("Extracting submatrix between row 1 & 2 and col 2 & 3",E)
 T = A'
 disp('Transpose of Matrix A',T)
 [row,col] = size(Z)
 disp("Dimensons of Matrix Z")
 disp(row,col)
-
+X = inv(B)
+disp("Inverse of matrix B",X)
+disp('-----------------')
+pause
+x = [1,2,3,4];
+y = [x,0]
+disp("Adding column of zeros",y)
+z = [x;[6,7,8,9]]
+disp("Adding row",z)
