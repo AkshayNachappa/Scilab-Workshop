@@ -1,0 +1,13 @@
+close ;
+clear all;
+clc;
+t=-5:1:5;
+a=[zeros(1,5) 1 zeros(1,5)];
+k=input('enter the amplitude');
+b=k*a;
+subplot(2,1,1);
+plot2d(t,b);
+xtitle('impulse response', 'amplitude', 'time');
+subplot(2,1,2);
+plot2d3(t,b);
+xtitle('impulse response', 'amplitude', 'time');
