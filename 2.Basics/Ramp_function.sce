@@ -6,7 +6,7 @@ u=ones(t).*(t>=0);
 r=t.*(t>=0); 
 plot(t,r); 
 xgrid(4,1,7);
-xlabel("t"," fontsize ",4);
-ylabel("r ( t )"," fontsize ",4);
-title("Ramp"," fontsize ",4);
-set(gca(),"data bounds",matrix([-6,6,-0.1,7],2,-1));
+xlabel("t");
+ylabel("r ( t )");
+title("Ramp");
+
