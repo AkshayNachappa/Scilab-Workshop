@@ -7,7 +7,7 @@ t = [0:0.01:1];
 x = sin(2*%pi*f*t);
 Y = fft(x)          //fourier transform
 mag = abs(Y);       //magnitude of fft
-theta = atan(imag(Y),real(Y));  //angle of fft
+theta = atan(imag(Y),real(Y));  //phase of fft
 subplot(2,2,1)
 plot2d3(t,x)
 xtitle("Msg sig","time","Amp")
@@ -22,7 +22,7 @@ xtitle("mag spectrum","freq","Amp")
 
 subplot(2,2,4)
 plot2d3(theta)
-xtitle("angle spectrum","length","Angle")
+xtitle("Phase spectrum","length","Angle")
 pause
 // DTFT
 clc;
@@ -74,5 +74,5 @@ a = gca();
 a.y_location ="origin";
 a.x_location ="origin";
 plot2d3(atan(imag(y),real(y)))
-xtitle("angle spectrum","length","Angle")
+xtitle("Phase spectrum","length","Angle")
 
