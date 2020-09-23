@@ -9,7 +9,7 @@ t=0:0.001:5;
 i_s=2*sin(2*%pi*f_s*t); // Information Signal
 c_s=15*sin(2*%pi*f_c*t);// Carrier Signal
 
-Modulated_signal=5*(1+(2*sin(2*%pi*f_s*t))).*sin(2*%pi*f_c*t);
+Modulated_signal=15*(1+(2*sin(2*%pi*f_s*t))).*sin(2*%pi*f_c*t);
 
 subplot(3,1,1);
 plot(i_s);//plot of Information Signal
