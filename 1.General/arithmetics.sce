@@ -25,7 +25,7 @@ disp('-----------------')
 pause
 // row vectors
 disp("Vectors")
-A = [1:2:10];
+A = [1:2:10]; // 
 B = linspace(5,20,10);
 // displaying values
 disp(A)
